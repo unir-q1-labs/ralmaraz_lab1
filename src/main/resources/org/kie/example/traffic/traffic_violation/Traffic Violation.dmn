@@ -123,11 +123,11 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
-  <dmn:decision id="_5E439532-CFA2-43B1-92B1-7D2EFE1B73F8" name="Should the driver be Suspended?">
+  <dmn:decision id="_5E439532-CFA2-43B1-92B1-7D2EFE1B73F8" name="Should the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
     <dmn:allowedAnswers>Yes,No</dmn:allowedAnswers>
-    <dmn:variable id="_EA926CBE-848F-41B5-8271-EB63BFF5E7D7" name="Should the driver be Suspended?" typeRef="string"/>
+    <dmn:variable id="_EA926CBE-848F-41B5-8271-EB63BFF5E7D7" name="Should the driver be suspended?" typeRef="string"/>
     <dmn:informationRequirement id="_4425E422-A5A9-4856-AF1B-398BE83B8CF0">
       <dmn:requiredInput href="#_7DAD00D2-83F3-467F-99C7-E78947C80A2B"/>
     </dmn:informationRequirement>
